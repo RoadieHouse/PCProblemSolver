@@ -1,11 +1,11 @@
-# PC Problem Solver
+# PC Assistant (personal project for my father)
 
-PC Problem Solver is a desktop application designed to assist users with PC-related issues by interacting with the Mistral AI service. The application provides a chat interface where users can send messages and screenshots to receive assistance.
+PC Assistant is a desktop application designed to assist users with PC-related issues by interacting with the Mistral AI service (Using a customized Pixtral Large Agent, see system_prompt.md). The application provides a chat interface where users can send messages and screenshots to receive assistance.
 
 ## Features
 
 - **Chat Interface**: A user-friendly chat interface for interacting with the Mistral AI.
-- **Screenshot Capture**: Automatically captures and displays screenshots in the chat.
+- **Screenshot Capture**: Hotkey to automatically start the application, which then automatically captures and displays a screenshots in the chat.
 - **Single Mistral Client Instance**: Efficiently uses a single instance of the Mistral client to handle API interactions.
 
 <!--## Installation
@@ -27,7 +27,7 @@ PC Problem Solver is a desktop application designed to assist users with PC-rela
 
 1. **Run the Application**:
    ```bash
-   python -m app.main
+   python -m main
    ```
 
 2. **Interact with the Chat**:
@@ -36,10 +36,13 @@ PC Problem Solver is a desktop application designed to assist users with PC-rela
 
 ## Requirements
 
-- Python 3.x
 - PyQt5
 - Pillow
 - mistralai
+- markdown2
+- keyboard
+- python-dotenv
+
 
 - Mistral AI API Key (and client id)
 

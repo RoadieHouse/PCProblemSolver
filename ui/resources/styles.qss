@@ -1,0 +1,129 @@
+QScrollArea {
+    border: none;
+    border-radius: 10px;
+}
+
+#QMainWindow {
+    background-color: #1e1e1e;
+}
+
+QWidget {
+    background-color: #1e1e1e;
+}
+
+QScrollBar {
+    padding: 2px;                 /* Padding inside the scrollbar */
+}
+
+/* Vertical Scrollbar */
+QScrollBar:vertical {
+    background: #2b2b2b;
+    width: 15px;
+    margin: 0px 0 0px 0;
+    border-radius: 7px;
+}
+
+QScrollBar::handle:vertical {
+    background: #64c6a0;
+    min-height: 20px;
+    border-radius: 3px;
+    margin: 2px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #52997e;
+}
+
+QScrollBar::handle:vertical:pressed {
+    background: #40776f;
+}
+
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical {
+    background: #2b2b2b;
+    border-radius: 7px;
+}
+
+/* Hide the arrows and their background */
+QScrollBar::up-arrow:vertical,
+QScrollBar::down-arrow:vertical,
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    height: 0px;
+    width: 0px;
+    background: none;
+    border: none;
+}
+
+/* Horizontal Scrollbar */
+QScrollBar:horizontal {
+    background: #2b2b2b;          /* Track color */
+    height: 15px;                 /* Height of the scrollbar */
+    margin: 0px 0 0 0;           /* No margin to prevent corner issues */
+    border-radius: 7px;           /* Rounded corners for the track */
+}
+
+QScrollBar::handle:horizontal {
+    background: #64c6a0;          /* Handle color */
+    min-width: 20px;              /* Minimum width of the handle */
+    border-radius: 3px;           /* Same radius as the track */
+    margin: 2px;                  /* Small margin to prevent touching edges */
+}
+
+QScrollBar::handle:horizontal:hover {
+    background: #52997e;          /* Handle color on hover */
+}
+
+QScrollBar::handle:horizontal:pressed {
+    background: #40776f;          /* Handle color when pressed */
+}
+
+QScrollBar::add-page:horizontal,
+QScrollBar::sub-page:horizontal {
+    background: #2b2b2b;          /* Track color when handle doesn't fill */
+    border-radius: 7px;           /* Same radius as the track */
+}
+
+/* Hide the arrows and their background */
+QScrollBar::left-arrow:horizontal,
+QScrollBar::right-arrow:horizontal,
+QScrollBar::add-line:horizontal,
+QScrollBar::sub-line:horizontal {
+    height: 0px;                  /* Hide the arrows */
+    width: 0px;
+    background: none;
+    border: none;
+}
+
+/* Additional styles for other widgets */
+QLineEdit {
+    border: 2px solid #111111;
+    border-radius: 10px;
+    padding: 0 8px;
+    background: #111111;
+    color: white;  /* Set text color */
+    font-size: 17px;
+}
+
+QPushButton {
+    background-color: #64c6a0;  /* primary_color */
+    color: #111111;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #64c6a0;  /* primary_color */
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    border-color: #52997e;  /* hover_color */
+    background-color: #52997e;  /* hover_color */
+}
+
+QPushButton:pressed {
+    border-color: #40776f;  /* pressed_color */
+    background-color: #40776f;  /* pressed_color */
+    border-style: inset;
+}
