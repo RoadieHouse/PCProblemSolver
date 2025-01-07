@@ -2,6 +2,9 @@
 
 PC Assistant is a small desktop application designed to assist users with PC-related issues by interacting with the Mistral AI service (Using a customized Pixtral Large Agent, see system_prompt.md). The application provides a chat interface where users can send messages and screenshots to receive assistance. The main focus was to make the application as easy and barrier-free to use as possible.
 
+## Demonstration
+![Short demonstration of the PC Assistant](demo_gif.gif)
+
 ## Features
 
 - **Chat Interface**: A user-friendly chat interface for interacting with the Mistral AI.
