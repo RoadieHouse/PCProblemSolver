@@ -23,12 +23,12 @@ PC Assistant is a small desktop application designed to assist users with PC-rel
    pip install -r requirements.txt
    ```
 3. **Configure Environment**
-- Create a .env file in the root directory
-- Add your Mistral API key:
+   - Create a `.env` file in the root directory
+   - Add your Mistral API key:
 
-'''bash
-MISTRAL_API_KEY=your_api_key_here
-'''
+   ```bash
+   MISTRAL_API_KEY=your_api_key_here
+   ```
 
 ## Usage
 
@@ -62,14 +62,14 @@ MISTRAL_API_KEY=your_api_key_here
 
 ## Requirements
 
-- PyQt5
-- Pillow
-- mistralai
-- markdown2
-- keyboard
-- python-dotenv
+   - PyQt5
+   - Pillow
+   - mistralai
+   - markdown2
+   - keyboard
+   - python-dotenv
 
-- Mistral AI API Key (and client id)
+   - Mistral AI API Key (and client id)
 
 ## Contributing
 
