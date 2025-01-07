@@ -13,7 +13,7 @@ PC Assistant is a small desktop application designed to assist users with PC-rel
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/pc_problem_helper.git
+   git clone https://github.com/RoadieHouse/PCProblemSolver.git
    cd pc_problem_helper
    ```
 
