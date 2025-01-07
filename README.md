@@ -23,10 +23,12 @@ PC Assistant is a small desktop application designed to assist users with PC-rel
    pip install -r requirements.txt
    ```
 3. **Configure Environment**
-- Create a '''.env''' file in the root directory
+- Create a .env file in the root directory
 - Add your Mistral API key:
 
-'''MISTRAL_API_KEY=your_api_key_here'''
+'''bash
+MISTRAL_API_KEY=your_api_key_here
+'''
 
 ## Usage
 
