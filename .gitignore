@@ -17,4 +17,5 @@ dist/
 # IDE Specific
 .vscode/
 
-to_do.txt
+# PyInstaller
+.spec

@@ -97,12 +97,12 @@ QScrollBar::sub-line:horizontal {
 
 /* Additional styles for other widgets */
 QLineEdit {
-    border: 2px solid #111111;
+    border: 1px solid #64c6a0;
     border-radius: 10px;
     padding: 0 8px;
     background: #111111;
     color: white;  /* Set text color */
-    font-size: 17px;
+    font-size: 20px;
 }
 
 QPushButton {
@@ -113,8 +113,9 @@ QPushButton {
     border-radius: 10px;
     border-color: #64c6a0;  /* primary_color */
     padding: 5px;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
+    letter-spacing: 3px
 }
 
 QPushButton:hover {
