@@ -39,13 +39,9 @@ PC Assistant is a small desktop application designed to assist users with PC-rel
    ```bash
    python main.py
    ```
-   
-   OR for development mode with hot reload:
-   ```bash
-   python -m main
-   ```
 
 2. **Build with PyInstaller**:
+
    To create a standalone executable:
    ```bash
    pip install pyinstaller
@@ -54,12 +50,12 @@ PC Assistant is a small desktop application designed to assist users with PC-rel
    
    The executable will be created in the `dist` directory. You can customize the build using the `main.spec` file.
 
-3. **Interact with the Chat**:
+4. **Interact with the Chat**:
    - If the program is not the active window, press the hotkey to bring it to the foreground.
    - The application will capture a screenshot and send it along with your message to the Mistral AI.
    - Type your message in the input field and press Enter or click the "Senden" button.
 
-4. **Add autostart**
+5. **Add autostart**
    - The logic for enabling autostart is not part of the code.
    - For a manual setup, create a task in Windows Task Scheduler with admin privileges, trigger on startup or logon and "start an application" with the path to the executable.
 
